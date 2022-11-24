@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana;
+    color:lightslategray;
+}
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.nav ul {
+    margin:0;
+}
+.nav li {
+    display:inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color:lightslategray;
+    text-decoration: none;
+}
+.nav
+{
+    text-align:center;
+    font-size :1.1em;
+    font-weight:lighter;
+    border-bottom: 1px solid ;  
+}
+.nav li{
+    padding:0 5%;
+}
+.name{
+    text-align: center;
+    margin:0;
+    font-size: 5em;
+    font-family:  'Times New Roman';
+    font-weight: normal;
+    color:lightslategray;
+}
+.main-header{
+    background-color: rgba(0,0,0,.6);
+    background-image: url("image/bg.jpg");
+    background-blend-mode: multiply ;
+    background-size: cover;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    padding: .5em ;
+    margin:0;
+}
+.content-header{
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    text-align:center;
+    font-size: 2.Sem;
+}
+.zoat-image{
+    float:left;
+    height:200px;
+    width:200px; 
+    margin: 10px;
+}
+.footer{
+    background-color: rgb(2, 13, 13);
+    color:aqua;
+    padding: .25em 0;
+}
+.footer.nav li{
+    padding:0 7em;
+}
+.footer.nav img{
+    width: 60px;
+    height: 60px;
+}
+.btn{
+    margin-bottom: 0;
+    padding: 10px;
+}
+.shop-item{
+    margin:30px;
+}
+.item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:darkslategrey;
+    margin-bottom: 15px;
+}
+.item-image{
+    height: 250px;
+    padding: 0px 300px;
+}
+.item-details{
+    text-align:center;
+    padding: 5px;
+}
+.item-price{
+    color: darkslategrey;
+}
+.textarea{
+   resize :none;
+   margin: 20px;
+   height:200px;
+   width:400px;
+   border-radius: 1em;
+   border-color:lightslategray;
+   border-width: 4px;
+   border-style: groove;
+}
+.paragraph{
+    margin:0%;
+    padding-bottom: 5%;
+}
+.flex-container{
+    display: flex;
+  justify-content: space-around;
+
+}
+.feedback-button{
+    height:20px;
+    margin-top:100px;
+}
+
+
+
